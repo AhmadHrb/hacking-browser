@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Hacking Browser - V1</title>
+</head>
+<body>
+<nav class="nav">
+    <input id="address" class="url">
+    <button onclick="loadURL()">Go</button>
+    <br>
+    <input placeholder="nb of chars" id="chars"><button onclick="changeChars()">Change</button>
+    <input placeholder="class of input" id="input"><button onclick="changeInput()">Change</button>
+    <input placeholder="class of button" id="button"><button onclick="changeButton()">Change</button>
+    <button onclick="toggleAutoRefresh()">Auto Refresh</button>
+
+</nav>
+<webview class="webview" src="https://google.com" id="webview"></webview>
+<script src="browse.js"></script>
+<script src="event.js"></script>
+</body>
+</html>

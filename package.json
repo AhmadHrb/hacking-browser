@@ -1,0 +1,20 @@
+{
+  "name": "codes-generator",
+  "version": "1.0.0",
+  "description": "GiftCards Generator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ --overwrite"
+  },
+  "author": "Pocket, Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^9.0.5",
+    "electron-packager": "^15.0.0",
+    "remote": "^0.2.6"
+  },
+  "devDependencies": {
+    "electron": "^9.0.5"
+  }
+}
